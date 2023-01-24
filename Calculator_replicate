@@ -1,0 +1,31 @@
+#sample replicate of a calculator using classes, objects, functions, if + else statements, and loops!
+
+class calculator:#setting up the template for what the caculator should do 
+    def addition(self): #self is added so we can access the attributes and use the function 
+        print(x + y) #the addition function adds x and y
+    def subtraction(self):
+        print(x - y) #the subtraction function subtracts them
+    def multiplication(self):
+        print(x * y)  
+    def division(self):
+        print(x / y)
+x = int(input("Enter first number:")) #states that a user can input a number for both x and y and it has to be an integer (thus why we have int)
+y = int(input("Enter second number:"))
+obj1 = calculator() #calling our calculator obj1 so we can use it to do our functions
+choice = 1 #putting the value 1 in the label 'choice'
+while choice !=0: #statng that while the value of choice is not equal to 0 (will go on forever)
+    print("1) Addition") #giving the user all their options
+    print("2) Subtraction")
+    print("3) Multiplication")
+    print("4) Division")
+    choice = input("Enter your choice:") #changing the value stored in the label 'choice' as either of the operations
+    if choice == "add": #if user types add, the calculator (obj1) will add
+        print(obj1.addition())
+    elif choice == "subtract": #calculations for subtraction
+        print(obj1.subtraction())
+    elif choice == "multiply": #calculations for multiplication
+        print(obj1.multiplication())
+    elif choice == "divide": #calculations for division
+        print(obj1.division())
+    else: #no option if you don't choose any of the 4 above
+        print("Invalid choice")
