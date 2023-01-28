@@ -29,3 +29,5 @@ while choice !=0: #statng that while the value of choice is not equal to 0 (will
         print(obj1.division())
     else: #no option if you don't choose any of the 4 above
         print("Invalid choice")
+        
+ #sample replicate, that displays the 4 basic functions of a calculator on Replit
