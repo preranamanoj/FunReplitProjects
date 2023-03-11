@@ -1,3 +1,5 @@
+#originally for codespire Python
+
 #following a Replit tutorial for the tennis ball juggling game 
 #run this code on Replit in their pygame environment (suitable for some of the commands used in this project) 
 
