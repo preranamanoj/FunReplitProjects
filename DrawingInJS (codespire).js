@@ -1,3 +1,5 @@
+//originally for codespire 
+
 let colorlist = ['gold', 'yellow', 'turquoise', 'red']
 
 function setup() {
