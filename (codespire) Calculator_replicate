@@ -1,4 +1,5 @@
 #sample replicate of a calculator using classes, objects, functions, if + else statements, and loops! Used for Codespire workshops!
+--> customized and additional features can be added :)
 
 class calculator:#setting up the template for what the caculator should do 
     def addition(self): #self is added so we can access the attributes and use the function 
